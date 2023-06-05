@@ -1,0 +1,6 @@
+ublue_variants:
+  - label: meisenzahl/startingpoint
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: startingpoint
+        info: Startingpoint
