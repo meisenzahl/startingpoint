@@ -6,4 +6,6 @@ set -oue pipefail
 systemctl set-default graphical.target
 systemctl enable lightdm
 
+mkdir -p /var/lib/lightdm-data/lightdm
+
 # plymouth-set-default-theme elementary -R
